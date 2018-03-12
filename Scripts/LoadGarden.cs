@@ -5,7 +5,7 @@ public class LoadGarden : MonoBehaviour {
 
 	void OnTriggerEnter(Collider Col){
 		if (Col.gameObject.tag == "Player") {
-			Application.LoadLevel ("Garden");
+			Application.LoadLevel ("Loading");
 		}
 	}
 

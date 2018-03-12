@@ -5,7 +5,7 @@ public class LoadMosque : MonoBehaviour {
 
 	void OnTriggerEnter(Collider Col){
 		if (Col.gameObject.tag == "Player") {
-			Application.LoadLevel ("Mosque");
+			Application.LoadLevel ("LoadingMosque");
 		}
 	}
 
