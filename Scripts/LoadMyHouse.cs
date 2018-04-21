@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class LoadMosque : MonoBehaviour {
+public class LoadMyHouse : MonoBehaviour {
 
 	void OnTriggerEnter(Collider Col){
 		if (Col.gameObject.tag == "Player") {
-			Application.LoadLevel ("Mosque");
+			Application.LoadLevel ("MyHome");
 		}
 	}
 

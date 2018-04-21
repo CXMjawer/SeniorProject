@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Car : MonoBehaviour {
-public float speed = 0.1f;
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
+ float speed = 0.011f;
+
 	void Update () {
+		if(Time.timeScale==1){
 		transform.Translate(0, 0, speed);
+		}else{
+			transform.Translate(0, 0, 0);
+		}
 	}
 }

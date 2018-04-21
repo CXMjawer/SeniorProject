@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,15 +13,4 @@ public class Minmap : MonoBehaviour {
 		transform.position = newPosition;
 		transform.rotation = Quaternion.Euler(90f, player.eulerAngles.y, 0f);
 	}
-
-
-
-
-
-
-
-
-
-
-
 }

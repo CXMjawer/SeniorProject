@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class TrophiesCollected : MonoBehaviour {
-	
+
+
 	public static int TrophiesAmount;
 	Text text;
 	
@@ -15,5 +16,6 @@ public class TrophiesCollected : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		text.text = TrophiesAmount.ToString();
+
 	}
 }

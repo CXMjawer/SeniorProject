@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class InfoCollected : MonoBehaviour {
 	
-	public static int CoinsAmount;
+	public static int CoinsAmount=0;
 	Text text;
 	
 	void Start () {
 		text = GetComponent<Text>();
 	}
 	
-	// Update is called once per frame
+
 	void Update () {
 		text.text = CoinsAmount.ToString();
 	}
